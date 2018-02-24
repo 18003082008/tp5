@@ -1,0 +1,2149 @@
+---------------------------------------------------------------
+[ 2018-02-06T09:51:31+08:00 ] 127.0.0.1 GET /index.php/admin/index/index.html
+[ info ] test.newgmsh.com/index.php/admin/index/index.html [运行时间：0.589000s][吞吐率：1.70req/s] [内存消耗：1,427.76kb] [文件加载：48]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9824269312; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\new_gmsh\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-06T09:51:34+08:00 ] 127.0.0.1 GET /index.php/admin/login/index.html
+[ info ] test.newgmsh.com/index.php/admin/login/index.html [运行时间：0.196000s][吞吐率：5.10req/s] [内存消耗：1,448.98kb] [文件加载：47]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9824269312; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081; PHPSESSID=oa3l893o28fhc70pt3m09eco70',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\new_gmsh\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\login\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-06T09:51:35+08:00 ] 127.0.0.1 GET /index.php/captcha.html
+[ info ] test.newgmsh.com/index.php/captcha.html [运行时间：1.334000s][吞吐率：0.75req/s] [内存消耗：1,055.00kb] [文件加载：34]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9824269312; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081; PHPSESSID=oa3l893o28fhc70pt3m09eco70',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/login/index.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ E:\new_gmsh\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-06T09:51:45+08:00 ] 127.0.0.1 POST /index.php/admin/login/index.html
+[ info ] test.newgmsh.com/index.php/admin/login/index.html [运行时间：0.749000s][吞吐率：1.34req/s] [内存消耗：1,870.10kb] [文件加载：50]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://test.newgmsh.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '45',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'gmadmin',
+  'password' => 'gmsh1989',
+  'code' => 'f3ptz',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ E:\new_gmsh\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.065000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_admin` [ RunTime:0.053000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_admin` WHERE  `username` = 'gmadmin' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `gm_admin`  SET `ip`='127.0.0.1',`last_time`='2018-02-06 09:51:45'  WHERE  `username` = 'gmadmin' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T09:51:45+08:00 ] 127.0.0.1 GET /index.php/admin/index/index.html
+[ info ] test.newgmsh.com/index.php/admin/index/index.html [运行时间：0.069000s][吞吐率：14.49req/s] [内存消耗：1,479.37kb] [文件加载：48]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\new_gmsh\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-06T09:51:45+08:00 ] 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ info ] test.newgmsh.com/index.php/admin/index/welcome.html [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,403.23kb] [文件加载：47]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\new_gmsh\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-06T09:53:36+08:00 ] 127.0.0.1 GET /index.php/admin/vip/vip_list.html
+[ info ] test.newgmsh.com/index.php/admin/vip/vip_list.html [运行时间：0.232000s][吞吐率：4.31req/s] [内存消耗：1,964.80kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vip',
+    2 => 'vip_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Vip->vip_list[ E:\new_gmsh\application\admin\controller\Vip.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\vip\vip_list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.162000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-02-06T09:57:31+08:00 ] 127.0.0.1 GET /index.php/admin/vip/vip_list.html
+[ info ] test.newgmsh.com/index.php/admin/vip/vip_list.html [运行时间：0.062000s][吞吐率：16.13req/s] [内存消耗：1,964.80kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vip',
+    2 => 'vip_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Vip->vip_list[ E:\new_gmsh\application\admin\controller\Vip.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\vip\vip_list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-02-06T09:57:33+08:00 ] 127.0.0.1 GET /index.php/admin/index/index.html
+[ info ] test.newgmsh.com/index.php/admin/index/index.html [运行时间：0.038600s][吞吐率：25.91req/s] [内存消耗：1,479.37kb] [文件加载：48]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\new_gmsh\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-06T09:57:33+08:00 ] 127.0.0.1 GET /index.php/admin/index/welcome.html
+[ info ] test.newgmsh.com/index.php/admin/index/welcome.html [运行时间：0.016000s][吞吐率：62.50req/s] [内存消耗：1,403.23kb] [文件加载：47]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\new_gmsh\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\index\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-06T09:57:36+08:00 ] 127.0.0.1 GET /index.php/admin/vip/vip_list.html
+[ info ] test.newgmsh.com/index.php/admin/vip/vip_list.html [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：1,964.80kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vip',
+    2 => 'vip_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Vip->vip_list[ E:\new_gmsh\application\admin\controller\Vip.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\vip\vip_list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:01:05+08:00 ] 127.0.0.1 GET /index.php/admin/vip/vip_list.html
+[ info ] test.newgmsh.com/index.php/admin/vip/vip_list.html [运行时间：0.074000s][吞吐率：13.51req/s] [内存消耗：1,965.55kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'vip',
+    2 => 'vip_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/vip/vip_list.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Vip->vip_list[ E:\new_gmsh\application\admin\controller\Vip.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\vip\vip_list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:06:05+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_list.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_list.html [运行时间：0.204000s][吞吐率：4.90req/s] [内存消耗：2,032.60kb] [文件加载：52]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_list[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.105000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:06:06+08:00 ] 127.0.0.1 GET /index.php/admin/goods/temp/good/Thumb/6204.jpg
+[ info ] test.newgmsh.com/index.php/admin/goods/temp/good/Thumb/6204.jpg [运行时间：0.158000s][吞吐率：6.33req/s] [内存消耗：1,295.97kb] [文件加载：46]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'temp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'good' => 'Thumb',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-06T10:06:06+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_category_ajax.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_category_ajax.html [运行时间：0.068000s][吞吐率：14.71req/s] [内存消耗：1,786.14kb] [文件加载：46]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_category_ajax',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_category_ajax[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.028000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`name` FROM `gm_goods_type` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:06:19+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_list.html?id=40
+[ info ] test.newgmsh.com/index.php/admin/goods/good_list.html?id=40 [运行时间：0.073000s][吞吐率：13.70req/s] [内存消耗：2,033.05kb] [文件加载：52]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '40',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_list[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:06:19+08:00 ] 127.0.0.1 GET /index.php/admin/goods/temp/good/Thumb/6204.jpg
+[ info ] test.newgmsh.com/index.php/admin/goods/temp/good/Thumb/6204.jpg [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,295.98kb] [文件加载：46]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'temp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=40',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'good' => 'Thumb',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-06T10:06:19+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_category_ajax.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_category_ajax.html [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：1,786.41kb] [文件加载：46]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_category_ajax',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=40',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_category_ajax[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`name` FROM `gm_goods_type` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:06:23+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_list.html?id=40
+[ info ] test.newgmsh.com/index.php/admin/goods/good_list.html?id=40 [运行时间：0.068000s][吞吐率：14.71req/s] [内存消耗：2,033.07kb] [文件加载：52]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=40',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '40',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_list[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:06:23+08:00 ] 127.0.0.1 GET /index.php/admin/goods/temp/good/Thumb/6204.jpg
+[ info ] test.newgmsh.com/index.php/admin/goods/temp/good/Thumb/6204.jpg [运行时间：0.019000s][吞吐率：52.63req/s] [内存消耗：1,295.98kb] [文件加载：46]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'temp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=40',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'good' => 'Thumb',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-06T10:06:23+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_category_ajax.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_category_ajax.html [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,786.41kb] [文件加载：46]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_category_ajax',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=40',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_category_ajax[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`name` FROM `gm_goods_type` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:06:26+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_list.html?id=38
+[ info ] test.newgmsh.com/index.php/admin/goods/good_list.html?id=38 [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：2,033.07kb] [文件加载：52]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=40',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '38',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_list[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_list.html [ array (
+  0 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:06:26+08:00 ] 127.0.0.1 GET /index.php/admin/goods/temp/good/Thumb/6204.jpg
+[ info ] test.newgmsh.com/index.php/admin/goods/temp/good/Thumb/6204.jpg [运行时间：0.017000s][吞吐率：58.82req/s] [内存消耗：1,295.98kb] [文件加载：46]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'temp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'good' => 'Thumb',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-06T10:06:26+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_category_ajax.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_category_ajax.html [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,786.41kb] [文件加载：46]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_category_ajax',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_category_ajax[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`name` FROM `gm_goods_type` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:12:19+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.080000s][吞吐率：12.50req/s] [内存消耗：2,087.44kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:20:07+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.074000s][吞吐率：13.51req/s] [内存消耗：2,092.64kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:56:18+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：2,092.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:56:35+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.064000s][吞吐率：15.62req/s] [内存消耗：2,092.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T11:30:35+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.061000s][吞吐率：16.39req/s] [内存消耗：2,096.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T11:44:30+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.072000s][吞吐率：13.89req/s] [内存消耗：2,096.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T13:41:47+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.061000s][吞吐率：16.39req/s] [内存消耗：2,096.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-02-06T13:42:33+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：2,096.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T13:53:14+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：2,096.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:06:08+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.059000s][吞吐率：16.95req/s] [内存消耗：2,096.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:07:28+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.060000s][吞吐率：16.67req/s] [内存消耗：2,104.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:08:17+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：2,104.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:09:35+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.064000s][吞吐率：15.62req/s] [内存消耗：2,104.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:25:01+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.060000s][吞吐率：16.67req/s] [内存消耗：2,108.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:26:09+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：2,108.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:26:47+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.060000s][吞吐率：16.67req/s] [内存消耗：2,108.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:27:03+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：2,108.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:29:13+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.067000s][吞吐率：14.93req/s] [内存消耗：2,108.61kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:29:40+08:00 ] 127.0.0.1 POST /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.067000s][吞吐率：14.93req/s] [内存消耗：2,111.19kb] [文件加载：51]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_add.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://test.newgmsh.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '298',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+)
+[ info ] [ PARAM ] array (
+  'title' => '',
+  'shorttitle' => '',
+  'goods_type' => '1',
+  'price' => '',
+  'privilege_price' => '',
+  'cost' => '',
+  'ship_fee' => '',
+  'score_price' => '',
+  'is_vip' => 'on',
+  'send_vip' => '请选择',
+  'commission1' => '',
+  'commission2' => '',
+  'commission3' => '',
+  'score_rate' => '',
+  'day_award' => '',
+  'N_day_id=' => '',
+  'start_time' => '',
+  'end_time' => '',
+  'day_num' => '',
+  'max_num' => '',
+  'pkurl' => '',
+  'sold' => '',
+  'stock' => '',
+  'file' => '',
+  'COD' => 'on',
+  'recommend' => 'on',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:48:36+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.060000s][吞吐率：16.67req/s] [内存消耗：2,158.75kb] [文件加载：52]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:48:37+08:00 ] 127.0.0.1 GET /index.php/admin/goods/
+[ info ] test.newgmsh.com/index.php/admin/goods/ [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：1,295.64kb] [文件加载：46]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_add.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.137',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->index[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:E:\new_gmsh\public/../application/admin\view\goods\index.html[E:\new_gmsh\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2018-02-06T14:49:20+08:00 ] 127.0.0.1 GET /index.php/admin/goods/good_add.html
+[ info ] test.newgmsh.com/index.php/admin/goods/good_add.html [运行时间：0.069000s][吞吐率：14.49req/s] [内存消耗：2,158.75kb] [文件加载：52]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => 'good_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_list.html?id=38',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->good_add[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\new_gmsh\public/../application/admin\view\goods\good_add.html [ array (
+  0 => 'type',
+  1 => 'send',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;port=3306;dbname=gmsh;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_goods_type` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_goods_type` ORDER BY `path` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `gm_vip_level` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `gm_vip_level` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:49:21+08:00 ] 127.0.0.1 GET /index.php/admin/goods/
+[ info ] test.newgmsh.com/index.php/admin/goods/ [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,295.64kb] [文件加载：46]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'goods',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_add.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.137',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Goods->index[ E:\new_gmsh\application\admin\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:E:\new_gmsh\public/../application/admin\view\goods\index.html[E:\new_gmsh\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2018-02-06T14:49:26+08:00 ] 127.0.0.1 POST /index.php/api/image/upload.html
+[ info ] test.newgmsh.com/index.php/api/image/upload.html [运行时间：0.098000s][吞吐率：10.20req/s] [内存消耗：1,246.92kb] [文件加载：43]
+[ info ] [ LANG ] E:\new_gmsh\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=9824269312; PHPSESSID=oa3l893o28fhc70pt3m09eco70; Hm_lvt_080836300300be57b7f34f4b3e97d911=1517814081,1517881895; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1517881895; admin=think%3A%7B%22id%22%3A%221%22%2C%22username%22%3A%22gmadmin%22%2C%22password%22%3A%2226d2b97525389a472c5a1c0413fb5e5f%22%2C%22role_id%22%3Anull%2C%22ip%22%3A%22127.0.0.1%22%2C%22last_time%22%3A%222018-02-05%2B08%253A29%253A21%22%2C%22rand_str%22%3A%22IXCTcR%22%7D',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://test.newgmsh.com/index.php/admin/goods/good_add.html',
+  'accept' => '*/*',
+  'content-type' => 'multipart/form-data; boundary=----------KM7cH2Ij5Ef1cH2KM7GI3ei4GI3ei4',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/28.0.0.137',
+  'origin' => 'http://test.newgmsh.com',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'content-length' => '69665',
+  'connection' => 'keep-alive',
+  'host' => 'test.newgmsh.com',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => '微信图片_20170524204557.png',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ E:\new_gmsh\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
